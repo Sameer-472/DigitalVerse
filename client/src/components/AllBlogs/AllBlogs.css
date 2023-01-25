@@ -1,0 +1,8 @@
+#title{
+    text-decoration: none;
+    color: white;
+}
+
+#title:hover{
+    color: rgb(163, 140, 223);
+}

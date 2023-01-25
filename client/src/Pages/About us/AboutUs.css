@@ -1,0 +1,30 @@
+#abouttext{
+    font-size: 15px;
+    color: white;
+    text-align: center;
+}
+
+#aboutHeading{
+    color: rgb(23, 171, 224);
+    text-align: center;
+    font-weight: bolder;
+}
+
+#teamPic{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    /* filter: drop-shadow(2px -17px 14px rgba(18, 18, 192, 0.801)); */
+}
+
+#teamMembers{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+#name{
+    color: rgb(23, 171, 224);
+}

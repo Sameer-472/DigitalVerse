@@ -1,0 +1,45 @@
+#NftArt{
+    width: 230px;
+    height: 250px;
+    border-radius: 10px;
+    transition: transform 0.5s ease;
+}
+
+#buyButton{
+    background-color: white;
+    color: black;
+    font-weight: bolder;
+    /* position: relative; */
+    /* top: 80px; */
+    /* transition: all ; */
+}
+
+
+#NftArt:hover{
+    transform: scale(1.0);
+}
+#outerCard{
+    width: fit-content;
+    background-color: #191C1F;
+    border-radius: 20px;
+    /* border: 20px solid white; */
+}
+#innerCard{
+    width: fit-content;
+    /* height: fit-content; */
+    padding: 10px;
+    background-color: #191C1F;
+    border-radius: 20px;    
+}
+
+#outerCard:hover{
+    border: 2px solid #222528;
+
+}
+
+#innerCard:hover{
+    background-color: #191C1F;
+    cursor: pointer;
+    border: 2px solid #222528;
+
+}

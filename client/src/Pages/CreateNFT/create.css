@@ -1,0 +1,31 @@
+#card{
+    width: 300px;
+    height: 300px;
+    border-style: dotted;
+    /* background-color: #1D1933;    */
+}
+
+#card:hover{
+    cursor: pointer;
+    background-color: rgb(187, 183, 183);
+}
+
+#inputField{
+    /* min-width: 350px; */
+    min-height: 50px;
+    outline: none;
+    /* border: none; */
+    border: 2px solid black;
+    /* background-color: #1D1933; */
+    color: black;
+    font-size: larger;
+    width: 450px;
+    border-radius: 10px;
+    /* height: 50px; */
+}
+#createBox{
+    color: 'white'
+}
+#label{
+    color: white;
+}

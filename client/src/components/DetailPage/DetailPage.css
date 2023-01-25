@@ -1,0 +1,43 @@
+#nftDetail {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* align-items: center; */
+    padding: 30px 0 70px 0;
+    background-color: #191C1F;
+    color: white;
+}
+
+#circle1 {
+    background: #b92b27;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #1565C0, #b92b27);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #1565C0, #b92b27);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#circle2 {
+    background: #C6FFDD;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #f7797d, #FBD786, #C6FFDD);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #f7797d, #FBD786, #C6FFDD); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+}
+
+#description{
+    font-size: larger;
+    font-weight: bolder;
+
+}
+
+#detailBuyButton{
+    color: black ; 
+    background-color: white;
+    font-weight: bolder;
+    font-size: larger;
+}
+#detailBuyButton:hover{
+    color: black ; 
+    background-color: rgb(180, 172, 172);
+}

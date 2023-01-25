@@ -1,0 +1,16 @@
+#footerLinks{
+    text-decoration: none;
+    color: white;
+}
+#footerLinks:hover{
+    color: orangered;
+}
+
+#footerInput{
+        min-height: 40px;
+        outline: none;
+        border: none;
+    background-color: #191C1F;
+        color: white;
+        font-size: larger;
+}
