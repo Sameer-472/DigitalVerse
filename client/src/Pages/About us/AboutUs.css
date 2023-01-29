@@ -2,6 +2,7 @@
     font-size: 15px;
     color: white;
     text-align: center;
+    font-family: cursive;
 }
 
 #aboutHeading{
@@ -14,15 +15,16 @@
     border-radius: 50%;
     width: 200px;
     height: 200px;
-    /* filter: drop-shadow(2px -17px 14px rgba(18, 18, 192, 0.801)); */
+    filter: drop-shadow(2px -17px 14px rgba(186, 192, 18, 0.801));
 }
 
 #teamMembers{
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
-    text-align: center;
+    /* text-align: center; */
     flex-direction: column;
+
 }
 
 #name{

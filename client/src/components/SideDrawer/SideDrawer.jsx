@@ -80,15 +80,7 @@ export default function SideNavBar() {
     <Box sx={{ flexGrow: 1 }}>
       <AppBar position="static">
         <Toolbar id='box'>
-          <Search sx={{color: "white"}}> 
-            <SearchIconWrapper>
-              <SearchIcon />
-            </SearchIconWrapper>
-            <StyledInputBase
-              placeholder="Search…"
-              inputProps={{ 'aria-label': 'search' }}
-            />
-          </Search>
+          <p style={{fontSize: '30px' , color: 'rgba(36, 125, 207, 0.989)'}}>Digitalverse</p>
           <Box sx={{display: "flex", justifyContent: "space-around"  , width: "100vw"}}>
               <Link id='link' to='/'>Home</Link>
               <Link id='link' to='explore'>Explore</Link>

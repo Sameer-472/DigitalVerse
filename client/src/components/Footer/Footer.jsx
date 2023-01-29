@@ -42,45 +42,47 @@ const Footer = () => {
               Create item
             </Link>
           </p>
-          <p>
-            <Link id="footerLinks" to="/blogs">
-              Blogs
-            </Link>
-          </p>
+         
         </Box>
         <Box>
           <MenuList>
-            <MenuItem>
-              <ListItemIcon>
-                <TwitterIcon sx={{ color: "white" }} />
-              </ListItemIcon>
-              <ListItemText sx={{ textDecoration: "none", color: "white" }}>
-                Twitter
-              </ListItemText>
-            </MenuItem>
-            <MenuItem>
-              <ListItemIcon>
-                <InstagramIcon sx={{ color: "white" }} />
-              </ListItemIcon>
-              <ListItemText sx={{ textDecoration: "none", color: "white" }}>
-                Instagram
-              </ListItemText>
-            </MenuItem>
-            <MenuItem>
-              <ListItemIcon>
-                <FacebookIcon sx={{ color: "white" }} />
-              </ListItemIcon>
-              <ListItemText sx={{ textDecoration: "none", color: "white" }}>
-                Facebook
-              </ListItemText>
-            </MenuItem>
+            <a href="https://twitter.com/Sameerkhan_45">
+              <MenuItem>
+                <ListItemIcon>
+                  <TwitterIcon sx={{ color: "white" }} />
+                </ListItemIcon>
+                <ListItemText sx={{ textDecoration: "none", color: "white" }}>
+                  Twitter
+                </ListItemText>
+              </MenuItem>
+            </a>
+            <a href="https://www.instagram.com/skywalker_sameer/">
+              <MenuItem>
+                <ListItemIcon>
+                  <InstagramIcon sx={{ color: "white" }} />
+                </ListItemIcon>
+                <ListItemText sx={{ textDecoration: "none", color: "white" }}>
+                  Instagram
+                </ListItemText>
+              </MenuItem>
+            </a>
+            <a href="https://www.facebook.com/profile.php?id=100009529212122">
+              <MenuItem>
+                <ListItemIcon>
+                  <FacebookIcon
+                    sx={{ color: "white" }}
+                  />
+                </ListItemIcon>
+                <ListItemText sx={{ textDecoration: "none", color: "white" }}>Facebook</ListItemText>
+              </MenuItem>
+            </a>
           </MenuList>
         </Box>
       </Box>
       <Box
         sx={{ color: "white", backgroundColor: "#191C1F", textAlign: "center" }}
       >
-        &copy; NFT Marketplace, Inc
+        &copy; DigitalVerse, Inc
       </Box>
     </>
   );

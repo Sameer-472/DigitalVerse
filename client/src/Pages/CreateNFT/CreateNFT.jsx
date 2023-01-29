@@ -24,8 +24,8 @@ const MyCard = styled(Card)`
   border-color: 50px solid orange;
 `;
 
-const projectId = "2DOJC0wv4QSFUWiDOw8ChpQBySv";
-const projectSecretKey = "7335853015c063ff24bc539f8600baa0";
+const projectId = YOUR_INFURA_PROJECT_ID;
+const projectSecretKey = YOUR_INFURA_PROJECT_KEY;
 const authorization = "Basic " + btoa(projectId + ":" + projectSecretKey);
 
 export const CreateNFT = () => {
